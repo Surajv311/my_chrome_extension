@@ -1,0 +1,14 @@
+// every chrome extension has a manifest.json file
+{
+  "manifest_version": 2,
+
+  "name": "Srj's SocialM launcher",
+  "description": "Social media apps launcher",
+  "version": "1.0.0",
+  "icons": { "128": "logo128.png" },
+  "browser_action": {
+    "default_icon": "logo16.png",
+    "default_popup": "index_popup.html"
+  },
+  "permissions": ["activeTab"]
+}
